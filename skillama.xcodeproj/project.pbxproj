@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC72DBBB2C847291008BDB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBBA2C847291008BDB03 /* AppDelegate.swift */; };
+		BC72DBBD2C847291008BDB03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBBC2C847291008BDB03 /* SceneDelegate.swift */; };
+		BC72DBBF2C847291008BDB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBBE2C847291008BDB03 /* ViewController.swift */; };
+		BC72DBC22C847291008BDB03 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BC72DBC12C847291008BDB03 /* Base */; };
+		BC72DBC42C847292008BDB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC72DBC32C847292008BDB03 /* Assets.xcassets */; };
+		BC72DBC72C847292008BDB03 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BC72DBC62C847292008BDB03 /* Base */; };
+		BC72DBD22C847292008BDB03 /* skillamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBD12C847292008BDB03 /* skillamaTests.swift */; };
+		BC72DBDC2C847292008BDB03 /* skillamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBDB2C847292008BDB03 /* skillamaUITests.swift */; };
+		BC72DBDE2C847292008BDB03 /* skillamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBDD2C847292008BDB03 /* skillamaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC72DBCE2C847292008BDB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC72DBAF2C847290008BDB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC72DBB62C847290008BDB03;
+			remoteInfo = skillama;
+		};
+		BC72DBD82C847292008BDB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC72DBAF2C847290008BDB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC72DBB62C847290008BDB03;
+			remoteInfo = skillama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC72DBB72C847291008BDB03 /* skillama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC72DBBA2C847291008BDB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC72DBBC2C847291008BDB03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC72DBBE2C847291008BDB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC72DBC12C847291008BDB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC72DBC32C847292008BDB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC72DBC62C847292008BDB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC72DBC82C847292008BDB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC72DBCD2C847292008BDB03 /* skillamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC72DBD12C847292008BDB03 /* skillamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillamaTests.swift; sourceTree = "<group>"; };
+		BC72DBD72C847292008BDB03 /* skillamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC72DBDB2C847292008BDB03 /* skillamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillamaUITests.swift; sourceTree = "<group>"; };
+		BC72DBDD2C847292008BDB03 /* skillamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC72DBB42C847290008BDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72DBCA2C847292008BDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72DBD42C847292008BDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC72DBAE2C847290008BDB03 = {
+			isa = PBXGroup;
+			children = (
+				BC72DBB92C847291008BDB03 /* skillama */,
+				BC72DBD02C847292008BDB03 /* skillamaTests */,
+				BC72DBDA2C847292008BDB03 /* skillamaUITests */,
+				BC72DBB82C847291008BDB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC72DBB82C847291008BDB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBB72C847291008BDB03 /* skillama.app */,
+				BC72DBCD2C847292008BDB03 /* skillamaTests.xctest */,
+				BC72DBD72C847292008BDB03 /* skillamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC72DBB92C847291008BDB03 /* skillama */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBBA2C847291008BDB03 /* AppDelegate.swift */,
+				BC72DBBC2C847291008BDB03 /* SceneDelegate.swift */,
+				BC72DBBE2C847291008BDB03 /* ViewController.swift */,
+				BC72DBC02C847291008BDB03 /* Main.storyboard */,
+				BC72DBC32C847292008BDB03 /* Assets.xcassets */,
+				BC72DBC52C847292008BDB03 /* LaunchScreen.storyboard */,
+				BC72DBC82C847292008BDB03 /* Info.plist */,
+			);
+			path = skillama;
+			sourceTree = "<group>";
+		};
+		BC72DBD02C847292008BDB03 /* skillamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBD12C847292008BDB03 /* skillamaTests.swift */,
+			);
+			path = skillamaTests;
+			sourceTree = "<group>";
+		};
+		BC72DBDA2C847292008BDB03 /* skillamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBDB2C847292008BDB03 /* skillamaUITests.swift */,
+				BC72DBDD2C847292008BDB03 /* skillamaUITestsLaunchTests.swift */,
+			);
+			path = skillamaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC72DBB62C847290008BDB03 /* skillama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC72DBE12C847292008BDB03 /* Build configuration list for PBXNativeTarget "skillama" */;
+			buildPhases = (
+				BC72DBB32C847290008BDB03 /* Sources */,
+				BC72DBB42C847290008BDB03 /* Frameworks */,
+				BC72DBB52C847290008BDB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skillama;
+			productName = skillama;
+			productReference = BC72DBB72C847291008BDB03 /* skillama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC72DBCC2C847292008BDB03 /* skillamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC72DBE42C847292008BDB03 /* Build configuration list for PBXNativeTarget "skillamaTests" */;
+			buildPhases = (
+				BC72DBC92C847292008BDB03 /* Sources */,
+				BC72DBCA2C847292008BDB03 /* Frameworks */,
+				BC72DBCB2C847292008BDB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC72DBCF2C847292008BDB03 /* PBXTargetDependency */,
+			);
+			name = skillamaTests;
+			productName = skillamaTests;
+			productReference = BC72DBCD2C847292008BDB03 /* skillamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC72DBD62C847292008BDB03 /* skillamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC72DBE72C847292008BDB03 /* Build configuration list for PBXNativeTarget "skillamaUITests" */;
+			buildPhases = (
+				BC72DBD32C847292008BDB03 /* Sources */,
+				BC72DBD42C847292008BDB03 /* Frameworks */,
+				BC72DBD52C847292008BDB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC72DBD92C847292008BDB03 /* PBXTargetDependency */,
+			);
+			name = skillamaUITests;
+			productName = skillamaUITests;
+			productReference = BC72DBD72C847292008BDB03 /* skillamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC72DBAF2C847290008BDB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BC72DBB62C847290008BDB03 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BC72DBCC2C847292008BDB03 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BC72DBB62C847290008BDB03;
+					};
+					BC72DBD62C847292008BDB03 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BC72DBB62C847290008BDB03;
+					};
+				};
+			};
+			buildConfigurationList = BC72DBB22C847290008BDB03 /* Build configuration list for PBXProject "skillama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC72DBAE2C847290008BDB03;
+			productRefGroup = BC72DBB82C847291008BDB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC72DBB62C847290008BDB03 /* skillama */,
+				BC72DBCC2C847292008BDB03 /* skillamaTests */,
+				BC72DBD62C847292008BDB03 /* skillamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC72DBB52C847290008BDB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72DBC42C847292008BDB03 /* Assets.xcassets in Resources */,
+				BC72DBC72C847292008BDB03 /* Base in Resources */,
+				BC72DBC22C847291008BDB03 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72DBCB2C847292008BDB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72DBD52C847292008BDB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC72DBB32C847290008BDB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72DBBF2C847291008BDB03 /* ViewController.swift in Sources */,
+				BC72DBBB2C847291008BDB03 /* AppDelegate.swift in Sources */,
+				BC72DBBD2C847291008BDB03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72DBC92C847292008BDB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72DBD22C847292008BDB03 /* skillamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72DBD32C847292008BDB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72DBDE2C847292008BDB03 /* skillamaUITestsLaunchTests.swift in Sources */,
+				BC72DBDC2C847292008BDB03 /* skillamaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC72DBCF2C847292008BDB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC72DBB62C847290008BDB03 /* skillama */;
+			targetProxy = BC72DBCE2C847292008BDB03 /* PBXContainerItemProxy */;
+		};
+		BC72DBD92C847292008BDB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC72DBB62C847290008BDB03 /* skillama */;
+			targetProxy = BC72DBD82C847292008BDB03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC72DBC02C847291008BDB03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC72DBC12C847291008BDB03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC72DBC52C847292008BDB03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC72DBC62C847292008BDB03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC72DBDF2C847292008BDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC72DBE02C847292008BDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC72DBE22C847292008BDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYFB8X5DZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skillama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darianikolaeva.skillama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC72DBE32C847292008BDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYFB8X5DZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skillama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darianikolaeva.skillama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC72DBE52C847292008BDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYFB8X5DZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darianikolaeva.skillamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skillama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/skillama";
+			};
+			name = Debug;
+		};
+		BC72DBE62C847292008BDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYFB8X5DZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darianikolaeva.skillamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skillama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/skillama";
+			};
+			name = Release;
+		};
+		BC72DBE82C847292008BDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYFB8X5DZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darianikolaeva.skillamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = skillama;
+			};
+			name = Debug;
+		};
+		BC72DBE92C847292008BDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYFB8X5DZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darianikolaeva.skillamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = skillama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC72DBB22C847290008BDB03 /* Build configuration list for PBXProject "skillama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72DBDF2C847292008BDB03 /* Debug */,
+				BC72DBE02C847292008BDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC72DBE12C847292008BDB03 /* Build configuration list for PBXNativeTarget "skillama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72DBE22C847292008BDB03 /* Debug */,
+				BC72DBE32C847292008BDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC72DBE42C847292008BDB03 /* Build configuration list for PBXNativeTarget "skillamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72DBE52C847292008BDB03 /* Debug */,
+				BC72DBE62C847292008BDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC72DBE72C847292008BDB03 /* Build configuration list for PBXNativeTarget "skillamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72DBE82C847292008BDB03 /* Debug */,
+				BC72DBE92C847292008BDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC72DBAF2C847290008BDB03 /* Project object */;
+}
