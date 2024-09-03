@@ -16,6 +16,12 @@
 		BC72DBD22C847292008BDB03 /* skillamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBD12C847292008BDB03 /* skillamaTests.swift */; };
 		BC72DBDC2C847292008BDB03 /* skillamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBDB2C847292008BDB03 /* skillamaUITests.swift */; };
 		BC72DBDE2C847292008BDB03 /* skillamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBDD2C847292008BDB03 /* skillamaUITestsLaunchTests.swift */; };
+		BC72DBEB2C847FC2008BDB03 /* SuggestSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBEA2C847FC2008BDB03 /* SuggestSkillViewController.swift */; };
+		BC72DBED2C848242008BDB03 /* CooseSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBEC2C848242008BDB03 /* CooseSkillViewController.swift */; };
+		BC72DBEF2C84A9C5008BDB03 /* ChooseSkillDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBEE2C84A9C5008BDB03 /* ChooseSkillDelegate.swift */; };
+		BC72DBF22C84E39C008BDB03 /* SwiftSVG in Frameworks */ = {isa = PBXBuildFile; productRef = BC72DBF12C84E39C008BDB03 /* SwiftSVG */; };
+		BC72DBF62C85ACA3008BDB03 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBF52C85ACA3008BDB03 /* Skill.swift */; };
+		BC72DBFB2C85AE62008BDB03 /* SuggestSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC72DBFA2C85AE62008BDB03 /* SuggestSkillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,11 @@
 		BC72DBD72C847292008BDB03 /* skillamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC72DBDB2C847292008BDB03 /* skillamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillamaUITests.swift; sourceTree = "<group>"; };
 		BC72DBDD2C847292008BDB03 /* skillamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC72DBEA2C847FC2008BDB03 /* SuggestSkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestSkillViewController.swift; sourceTree = "<group>"; };
+		BC72DBEC2C848242008BDB03 /* CooseSkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooseSkillViewController.swift; sourceTree = "<group>"; };
+		BC72DBEE2C84A9C5008BDB03 /* ChooseSkillDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSkillDelegate.swift; sourceTree = "<group>"; };
+		BC72DBF52C85ACA3008BDB03 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		BC72DBFA2C85AE62008BDB03 /* SuggestSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestSkillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC72DBF22C84E39C008BDB03 /* SwiftSVG in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +111,9 @@
 		BC72DBB92C847291008BDB03 /* skillama */ = {
 			isa = PBXGroup;
 			children = (
+				BC72DBF92C85AE09008BDB03 /* Controller */,
+				BC72DBF82C85AE01008BDB03 /* View */,
+				BC72DBF72C85ADD2008BDB03 /* Model */,
 				BC72DBBA2C847291008BDB03 /* AppDelegate.swift */,
 				BC72DBBC2C847291008BDB03 /* SceneDelegate.swift */,
 				BC72DBBE2C847291008BDB03 /* ViewController.swift */,
@@ -106,6 +121,8 @@
 				BC72DBC32C847292008BDB03 /* Assets.xcassets */,
 				BC72DBC52C847292008BDB03 /* LaunchScreen.storyboard */,
 				BC72DBC82C847292008BDB03 /* Info.plist */,
+				BC72DBEC2C848242008BDB03 /* CooseSkillViewController.swift */,
+				BC72DBEE2C84A9C5008BDB03 /* ChooseSkillDelegate.swift */,
 			);
 			path = skillama;
 			sourceTree = "<group>";
@@ -127,6 +144,30 @@
 			path = skillamaUITests;
 			sourceTree = "<group>";
 		};
+		BC72DBF72C85ADD2008BDB03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBF52C85ACA3008BDB03 /* Skill.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC72DBF82C85AE01008BDB03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBFA2C85AE62008BDB03 /* SuggestSkillView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC72DBF92C85AE09008BDB03 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC72DBEA2C847FC2008BDB03 /* SuggestSkillViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +184,9 @@
 			dependencies = (
 			);
 			name = skillama;
+			packageProductDependencies = (
+				BC72DBF12C84E39C008BDB03 /* SwiftSVG */,
+			);
 			productName = skillama;
 			productReference = BC72DBB72C847291008BDB03 /* skillama.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +259,9 @@
 				Base,
 			);
 			mainGroup = BC72DBAE2C847290008BDB03;
+			packageReferences = (
+				BC72DBF02C84E33A008BDB03 /* XCRemoteSwiftPackageReference "SwiftSVG" */,
+			);
 			productRefGroup = BC72DBB82C847291008BDB03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC72DBBF2C847291008BDB03 /* ViewController.swift in Sources */,
+				BC72DBEF2C84A9C5008BDB03 /* ChooseSkillDelegate.swift in Sources */,
+				BC72DBED2C848242008BDB03 /* CooseSkillViewController.swift in Sources */,
 				BC72DBBB2C847291008BDB03 /* AppDelegate.swift in Sources */,
+				BC72DBFB2C85AE62008BDB03 /* SuggestSkillView.swift in Sources */,
+				BC72DBEB2C847FC2008BDB03 /* SuggestSkillViewController.swift in Sources */,
+				BC72DBF62C85ACA3008BDB03 /* Skill.swift in Sources */,
 				BC72DBBD2C847291008BDB03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,6 +659,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC72DBF02C84E33A008BDB03 /* XCRemoteSwiftPackageReference "SwiftSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchoe/SwiftSVG";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC72DBF12C84E39C008BDB03 /* SwiftSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC72DBF02C84E33A008BDB03 /* XCRemoteSwiftPackageReference "SwiftSVG" */;
+			productName = SwiftSVG;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BC72DBAF2C847290008BDB03 /* Project object */;
 }
