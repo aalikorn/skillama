@@ -25,6 +25,23 @@ class SuggestSkillView: UIView {
     private var chooseConstraint: NSLayoutConstraint?
     private let lightPinkColor = UIColor(red: 1.0, green: 0.75, blue: 0.8, alpha: 0.4)
     
+    private func configureOnlineSegmentedController() {
+        
+    }
+    
+    private func configureOnlineLabel() {
+        onlineLabel.text = "В каком формате вы планируете проводить занятия?"
+        onlineLabel.numberOfLines = 0
+        onlineLabel.font = UIFont.systemFont(ofSize: 20)
+        view3.addSubview(onlineLabel)
+        onlineLabel.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            onlineLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            onlineLabel.centerYAnchor.constraint(equalTo: view3.centerYAnchor, constant: -35),
+            onlineLabel.widthAnchor.constraint(equalToConstant: 330)
+        ])
+    }
+    
     private func configureFirstSubview() {
         addSubview(view1)
         view1HeightConstraint = view1.heightAnchor.constraint(equalToConstant: CGFloat(78))
@@ -210,6 +227,7 @@ class SuggestSkillView: UIView {
         configureElseTextField()
         configureInDetailTextField()
         configureInDetailLabel()
+        configureOnlineLabel()
     }
     
     
